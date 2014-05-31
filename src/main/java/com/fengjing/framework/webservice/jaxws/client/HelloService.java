@@ -65,7 +65,7 @@ public class HelloService
      */
     @WebEndpoint(name = "HelloPort")
     public Hello getHelloPort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://service.jaxws.webservice.framework.fengjing.com/", "HelloPort"), Hello.class, features);
+        return super.getPort(new QName("http://service.jaxws.webservice.framework.fengjing.com/", "HelloPort"), Hello.class);
     }
 
 }
