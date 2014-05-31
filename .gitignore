@@ -5,3 +5,5 @@
 /spy.log
 /.springBeans
 /logs
+/.idea
+/maven-framework.iml

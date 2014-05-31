@@ -64,7 +64,7 @@ public class SpringMVCformCustomerController extends SimpleFormController {
 	@Override
 	protected Map referenceData(HttpServletRequest request) throws Exception {
  
-		Map referenceData = new HashMap();
+		Map<String,Object> referenceData = new HashMap<String,Object>();
  
 		//Data referencing for web framework checkboxes
 		List<String> webFrameworkList = new ArrayList<String>();
